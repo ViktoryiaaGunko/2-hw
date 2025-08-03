@@ -29,6 +29,7 @@ header span {
     /* Стили для первой секции */
   height: 1024px;
   background-color: #fafaff;
+  padding: 60px 0;
 }
 
 .main-title {
@@ -36,6 +37,7 @@ header span {
   font-weight: 700;
   font-size: 48px;
   padding: 60px 0 20px 0;
+  margin-bottom: 20px;
 }
 
 .main-text {
@@ -46,7 +48,7 @@ header span {
 
 .main-image {
     /* Стили для изображения в первой секции */
-  width: 715px;
+  max-width: 715px;
   /*height: 508px;*/
 }
 
@@ -85,7 +87,7 @@ select {
   font-size: 16px;
 
   list-style-image: url("./assets/images/solar_map-arrow-up-bold.svg") ;
-  padding-left: 22px;
+  padding: 0 20px;
 
 }
 
@@ -100,7 +102,7 @@ select {
 .label {
     /* Стили для подписей чекбоксов */
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
 
 }
 
